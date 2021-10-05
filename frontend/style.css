@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    width: 100%;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    padding: 50px;
+    flex-direction: column;
+    background-color: rgb(192, 238, 255);
+}
+
+.heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.entry-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-where {
+    width: 40%;
+}
+
+#inputWhere {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#inputHow {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 11px;
+    margin-top: 23px;
+    background-color: forestgreen;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3ms linear;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.total {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.hide {
+    display: none;
+}
+
+.expenses {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.textshop-date {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.expensesDate {
+    margin-left: 20px;
+}
+
+.all-btn {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}

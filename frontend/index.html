@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Учёт расходов</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading"><i>Учёт моих расходов</i></h1>
+        <div class="entry-field">
+            <div class="input-where">
+                <div>Куда было потраченно:</div>
+                <input id="inputWhere" type="text" placeholder="Куда было потраченно...">
+            </div>
+            <div class="input-how">
+                <div>Сколько было потраченно:</div>
+                <input id="inputHow" type="number" placeholder="Сколько было потраченно...">
+            </div>
+            <div class="btn-add">
+                <button id="btnAdd" class="btn">Добавить</button>
+            </div>
+        </div>
+        <div id="totalSum" class="total"></div>
+        <div class="content" id="content">
+            <ol class="content-list" id="contentList">
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
